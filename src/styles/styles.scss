@@ -1,3 +1,5 @@
+/* Used fonts */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
@@ -14,18 +16,23 @@ h2 {
   line-height: 1.1;
 }
 
-h2 a {
-  text-decoration: none;
-  color: #333;
+/* Clearfix */
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
-h2 a:hover {
-  text-decoration: none;
-}
+/* Do not forget to responsible Image */
+
+/* ... */
+
+
+/* And here follows your custom CSS */
 
 article {
-  border-bottom: .3125em solid #41b7d8;
-  margin-bottom: 2em;
+
 }
 
 article p {
@@ -34,18 +41,4 @@ article p {
 
 article ul {
   color: #aaa;
-}
-
-a {
-  color: #41b7d8;
-  text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
