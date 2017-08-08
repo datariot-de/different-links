@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body, button, input, label {
+  font-family: Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+
+h2 {
+  font-family: "Roboto Slab",Georgia,"Times New Roman",Times,serif;
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 1.1;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #333;
+}
+
+h2 a:hover {
+  text-decoration: none;
+}
+
+article {
+  border-bottom: .3125em solid #41b7d8;
+  margin-bottom: 2em;
+}
+
+article p {
+  font-family: "Roboto Slab",Georgia,"Times New Roman",Times,serif;
+}
+
+article ul {
+  color: #aaa;
+}
+
+a {
+  color: #41b7d8;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
