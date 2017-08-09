@@ -150,15 +150,9 @@ article h2 + ul li a {
   margin-right: .5em;
 }
 
-article p {
+article h2 + ul + p {
   font-family: "Roboto Slab",Georgia,"Times New Roman",Times,serif;
 }
-
-article p ~ p {
-  border-bottom: none;
-  font-family: Roboto,"Helvetica Neue",Arial,sans-serif;
-}
-
 
 @media screen and (min-width: 920px) {
   .wrap-all {
