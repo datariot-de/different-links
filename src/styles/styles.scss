@@ -26,7 +26,10 @@ h2 {
 
 /* Do not forget to responsible Image */
 
-/* ... */
+img {
+  max-width: 100%;
+  height: auto;
+}
 
 
 /* And here follows your custom CSS */
@@ -34,15 +37,132 @@ body {
   background-image: url('https://media-mediatemple.netdna-ssl.com/wp-content/themes/smashing-magazine/assets/images/smbg.png');
 }
 
+.wrap-all {
+  background-color: #fff;
+  margin: 2em;
+}
+
+aside {
+  float: right;
+  width: 25%;
+}
+
+aside p {
+  padding: 1em;
+}
+
+main {
+  float: left;
+  width: 70%;
+}
+
+
+/* standard links */
+a {
+  color: #41b7d8;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* button links */
+.button {
+  display: inline-block;
+  margin: 2em 0 0;
+  padding: .35em .65em;
+  border: .08em solid rgba(0,0,0,.1);
+  border-radius: .3125em;
+  color: #fff;
+}
+
+.button-more {
+  background: #41b7d8;
+}
+
+.button-action {
+  margin-left: 1em;
+  background: #e95c33;
+
+}
+
+/* navigation links */
+nav ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0 auto 2em auto;
+
+}
+
+nav ul li {
+  display: inline-block;
+}
+
+/* article content */
+h2 {
+  margin-top: 0;
+}
+
+h2 a {
+  text-decoration: none;
+  color: #333;
+}
+
+h2 a:hover {
+  text-decoration: none;
+}
 
 article {
+  border-bottom: .3125em solid #41b7d8;
+  padding: 2em;
+  margin-bottom: 2em;
+}
 
+
+article h2 + ul {
+  list-style-type: none;
+  padding: 0;
+  color: #aaa;
+}
+
+article h2 + ul li {
+  border-bottom: 1px solid #aaa;
+  font-size: 1.375em;
+  font-family: "Roboto Slab",Georgia,"Times New Roman",Times,serif;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+article h2 + ul li ~ li {
+  border-bottom: none;
+  display: inline-block;
+  font-family: unset;
+  font-size: unset;
+  margin-right: 1em;
+  margin-bottom: 0;
+  padding-bottom: 0;
+
+}
+
+article h2 + ul li a {
+  margin-right: .5em;
 }
 
 article p {
   font-family: "Roboto Slab",Georgia,"Times New Roman",Times,serif;
 }
 
-article ul {
-  color: #aaa;
+article p ~ p {
+  border-bottom: none;
+  font-family: Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+
+@media screen and (min-width: 920px) {
+  .wrap-all {
+    max-width: 900px;
+    margin: 2em auto;
+  }
 }
